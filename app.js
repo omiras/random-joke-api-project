@@ -51,3 +51,5 @@ button.addEventListener('click', function() {
 
 // Fetch categories on page load
 fetchCategories();
+
+//check
