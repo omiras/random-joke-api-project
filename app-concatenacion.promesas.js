@@ -6,7 +6,9 @@ button.addEventListener('click', function () {
     let url = "https://api.chucknorris.io/jokes/random";
 
     fetch(url)
-        .then(response => response.json())
+        .then(function (response) {
+            return response.json();
+        })
         .then(data => console.log(data));
 
     console.log("PATATA");
