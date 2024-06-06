@@ -37,6 +37,8 @@ async function fillCategories() {
     const categories = await response.json();
     console.log("🚀 ~ file: app.js:38 ~ fillCategories ~ categories:", categories)
 
+    console.log("response", response)
+
     // 2. Vamos a iterar por el array de categorías
     categories.forEach(c => {
         console.log(c);
